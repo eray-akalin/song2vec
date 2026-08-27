@@ -1,0 +1,21 @@
+# Environment
+venv/
+__pycache__/
+*.pyc
+
+# Jupyter
+.ipynb_checkpoints/
+
+# OS
+.DS_Store
+
+# Dataset (large, download separately — see README)
+data/*.idomaar
+
+# Trained model artifact (regenerate by running the notebook)
+best_song2vec_model.model
+
+# Course-specific / non-project files
+cs455hw1-MusaErayAkalın.docx
+cs455hw1-MusaErayAkalın.pdf
+prompt_log.txt
